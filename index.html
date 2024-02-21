@@ -6,11 +6,7 @@
     <title>AR Rocket Launch</title>
   </head>
   <body style="margin: 0px; overflow: hidden">
-    <a-scene
-      vr-mode-ui="enabled: false"
-      embedded
-      arjs="sourceType: webcam; debugUIEnabled: false;"
-    >
+    <a-scene vr-mode-ui="enabled: false" embedded>
       <!-- AR Marker -->
       <a-marker preset="hiro">
         <!-- Rocket Model -->
@@ -26,9 +22,6 @@
       <!-- Camera -->
       <a-entity camera></a-entity>
     </a-scene>
-
-    <!-- Launch Button -->
-
     <!-- Launch Button -->
     <button
       id="launchButton"

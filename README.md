@@ -6,11 +6,7 @@ This is a basic example using [AR.js](https://ar-js-org.github.io/AR.js-Docs/) a
 
 The 3D model is triggered by the [Hiro marker](https://commons.wikimedia.org/wiki/File:Hiro_marker_ARjs.png) - the 3D model will be rendered where the camera recognises the marker.
 
-<video width="300" controls>
-
-  <source src="assets/example.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="assets/example.gif" alt="QR Code" width="300"/>
 
 ## Run locally
 
